@@ -1,6 +1,6 @@
 # 🌤️ Weather Reporter Web Application
 
-![Weather Reporter Screenshot](./ss.png)
+![Weather Reporter Screenshot](/src/assets/ss.png)
 
 ---
 
@@ -52,7 +52,7 @@ This project demonstrates practical skills in:
 
 ## 📸 Screenshot
 
-![Weather Reporter Screenshot](./ss.png)
+![Weather Reporter Screenshot](/src/assets/ss.png)
 
 *Screenshot shows the app on desktop and mobile with weather details and search bar.*
 
@@ -74,7 +74,6 @@ Feel free to reach out if you have questions or feedback!
 
 ---
 
-*Built with ❤️ using React & Tailwind CSS*
 
 
 
