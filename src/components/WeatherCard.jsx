@@ -4,7 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherCard({ weather }) {
   const {
     location,
-    current: { temp_c, humidity, wind_kph, uv, condition },
+    current: { temp_c, humidity, wind_kph, uv, condition,feelslike_c, wind_dir,cloud },
   } = weather;
 
   return (
@@ -31,6 +31,21 @@ export default function WeatherCard({ weather }) {
           <span className="text-3xl font-bold text-yellow-500">{uv}</span>
           <span className="text-sm text-gray-500">UV Index</span>
         </div>
+        <div>
+          <span className="text-3xl font-semibold text-teal-600">
+            {feelslike_c}°C
+          </span>
+          <p className="text-sm text-gray-500">Feels Like</p>
+        </div>
+         {/* <div>
+          <span className="text-3xl font-semibold text-indigo-400">{wind_dir}</span>
+          <p className="text-sm text-gray-500">Wind Direction</p>
+        </div> */}
+        <div>
+          <span className="text-3xl font-semibold text-gray-600">{cloud}%</span>
+          <p className="text-sm text-gray-500">Cloud Cover</p>
+        </div>
+        
       </div>
     </div>
   );
